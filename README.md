@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a Quiz App built with React, utilizing the [TriviaDB API](https://triviadb.com/) to fetch questions. Users can select the quiz category and difficulty level, then proceed to answer 20 questions within a 30-second time limit for each question. After completing the quiz, the app provides the user's total score.
+This is a Quiz App built with React, utilizing the [Open Trivia DB](https://opentdb.com/) to fetch questions. Users can select the quiz category and difficulty level, then proceed to answer 20 questions within a 30-second time limit for each question. After completing the quiz, the app provides the user's total score.
 
 ## Features
 
