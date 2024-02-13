@@ -1,8 +1,20 @@
-# React + Vite
+# React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a Quiz App built with React, utilizing the [TriviaDB API](https://triviadb.com/) to fetch questions. Users can select the quiz category and difficulty level, then proceed to answer 20 questions within a 30-second time limit for each question. After completing the quiz, the app provides the user's total score.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Quiz Setup:**
+  - Select quiz category.
+  - Choose difficulty level.
+  - Start the quiz.
+
+- **Question Timer:**
+  - Each question has a 30-second time limit for the user to answer.
+
+- **Scoring:**
+  - Users accumulate points based on correct answers.
+  - Total score is displayed at the end of the quiz.
+
